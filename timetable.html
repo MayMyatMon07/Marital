@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Timetable</title>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <style>
+
+         
+    
+        
+        :root {
+            --main-color: #d32f2f; 
+            --black-color: #111111; 
+        }
+
+        
+        header .navbar a, header .logo {
+            text-transform: capitalize;
+              text-decoration: none;
+        }
+
+         header {
+            position: fixed;
+            top: 0; left: 0; right: 0;         
+            background-color: #777777; 
+            padding: 20px 4%;             
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 999;                
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        header .logo {
+            font-family: 'Arial Black', sans-serif;
+            font-size: 3rem;
+            color: var(--black-color);
+            font-weight: bold;
+        }
+
+        header .logo span {
+            color: var(--black-color);
+        }
+
+        header .navbar a {
+            font-family: 'Arial Black', sans-serif;
+            font-size: 1.1rem; 
+            padding: 0 0.5rem; 
+            color: var(--black-color);
+        }
+
+        header .navbar a:hover,
+        header .navbar a.active {
+            color: var(--main-color);
+        }
+
+         header .icons a {
+            font-size: 2.2rem;
+            color: var(--black-color); 
+        }
+
+        header .icons a:hover {
+            color: var(--main-color); 
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 2rem 4%;
+            }
+
+            header .navbar {
+                position: absolute;
+                top: 100%; left: 0; right: 0;
+                background-color: #777777; 
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+                display: flex;
+                flex-direction: column;
+                padding: 1rem 0;
+            }
+
+             header .navbar a {
+                font-size: 1.6rem;
+                padding: 1.5rem 2rem;
+                margin: 0.5rem 2rem;
+                background-color: var(--black-color);
+                color: #ffffff;
+                border-radius: 0.5rem;
+                text-align: center;
+            }
+
+            header .navbar a:hover {
+                background-color: var(--main-color);
+                color: #ffffff;
+            }
+        } 
+
+body {
+    background-color:snow;}
+
+    caption {
+    padding-bottom: 120px;
+}
+
+        </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">DuBo<span></span></a>
+
+        <nav class="navbar">
+        <a href="Home_Page.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Instructors.html" class="active">Instructors</a>
+        <a href="contact us.html">Contact Us</a>
+        <a href="classes.html">Classes</a>
+        <a href="courses.html">Courses</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="package.html">Pricing&Membership</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="login.html">Login</a>
+        </nav>
+<div class="icons">
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+<table width="90%" border="1" style="margin:auto;">
+        <caption>Martial arts class timetable </caption>
+        
+        <tr style="background-color:hotpink;">
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+            
+        </tr>
+        <tr style="background-color:rgb(255,255,0);">
+            <td>06:00
+07:30 </td>
+            <td>Jiu-jitsu </td>
+            <td> Karate</td>
+            <td>Judo </td>
+            <td>Jiu-jitsu  </td>
+            <td>Muay 
+Thai </td>
+            
+<td> </td>
+<td> </td>
+        </tr>
+        <tr style="background-color:yellowgreen;">
+             <td>08:00
+10:00 </td>
+            <td>Muay Thai</td>
+            <td> Private tuition</td>
+            <td>Private tuition </td>
+            <td> Private tuition</td>
+            <td>Jiu-jitsu
+</td>
+<td> Private tuition</td>
+<td> Private tuition</td>
+        
+        </tr>
+
+
+        
+        <tr style="background-color:pink;">
+             <td>10:30
+12:00 </td>
+            <td>Private tuition </td>
+            <td>Private tuition  </td>
+            <td>Private tuition  </td>
+            <td> Private tuition  </td>
+            <td>Private tuition 
+ </td>
+<td> Judo</td>
+<td> Karate </td>
+        </tr>
+<tr style="background-color:yellowgreen;">
+             <td>13:00
+14:30 </td>
+            <td> <br>Open mat/<br>
+                personal practice</td>
+
+                <td> <br>Open mat/<br>
+                personal practice</td>
+                <td> <br>Open mat/<br>
+                personal practice</td>
+                <td> <br>Open mat/<br>
+                personal practice</td>
+                <td> <br>Open mat/<br>
+                personal practice</td>
+           
+<td> Karate</td>
+<td> Judo </td>
+        
+</tr>
+        <tr style="background-color:rgb(255,255,0);">
+             <td>15:00
+17:00 </td>
+            <td>Kids jiu-jitsu </td>
+            <td> Kids judo</td>
+            <td>Kids karate</td>
+            <td> Kids jiu-jitsu  </td>
+            <td>Kids judo</td>
+            <td> Muay Thai</td>
+            <td> Jiu-jitsu</td>
+        </tr>
+
+
+        
+        <tr style="background-color:hotpink;">
+             <td>17:30
+19:00 </td>
+            <td>Karate </td>
+            <td> Muay Thai</td>
+            <td>Judo </td>
+            <td>Jiu-jitsu  </td>
+            <td>Muay Thai </td>
+            <td></td>
+            <td></td>
+
+        </tr>
+
+
+        
+        <tr style="background-color:yellowgreen;">
+             <td>19:00-21:00 </td>
+            <td>Jiu-jitsu </td>
+            <td>Judo </td>
+            <td>Jiu-jitsu  </td>
+            <td> Karate </td>
+             <td> Private tuition</td>
+             <td></td>
+             <td></td>
+        
+
+
+        </tr>
+
+    </table>
+
+</body>
+</html>
